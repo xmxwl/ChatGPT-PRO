@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。不知道密码？试试[关注公众号](https://xmxit.cn/wp-content/uploads/2023/10/微信图片_20231023132252.jpg)吧",
   },
   Auth: {
     Title: "需要密码",
@@ -325,7 +325,10 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
+    DefaultTopic: `本AI为openai的官方chatgpt，我们只是作一个搬运工，欢迎大家使用，我们的[博客](https://www.xmxit.cn)。
+您的支持是我们更新的动力，点击[赞助](https://pay.xmxit.cn/paypage/?merchant=d932Z9S8i7MuFTay0NYoOKYsxghb1BeSdy3Z3KeWxmRt)
+**提问**:你们的gpt支持4.0吗？
+**回答:暂时**PRO还满足不了你？钱能解决一切`,
     BotHello: "有什么可以帮你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
